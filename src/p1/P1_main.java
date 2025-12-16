@@ -54,7 +54,6 @@ public class P1_main {
             arr[i] = random.nextInt(1, 51);
             summe = summe + arr[i];
         }
-        System.out.println(arr[3]);
         arr[n] = Math.round((float) summe / n);
 
 
